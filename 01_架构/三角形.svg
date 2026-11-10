@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+  <rect width="960" height="640" fill="#fbfaf7"/>
+  <text x="480" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#222">AI 团队三角形</text>
+  <!-- 四层：用梯形拼成三角形 -->
+  <polygon points="480,80 552,190 408,190" fill="#c8553d"/>
+  <polygon points="408,196 552,196 628,312 332,312" fill="#e08e45"/>
+  <polygon points="332,318 628,318 706,436 254,436" fill="#7a9e7e"/>
+  <polygon points="254,442 706,442 790,570 170,570" fill="#4a6fa5"/>
+  <text x="480" y="168" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">目标</text>
+  <text x="480" y="256" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">规划</text>
+  <text x="480" y="278" text-anchor="middle" font-size="13" fill="#fff">看同行怎么做</text><text x="480" y="298" text-anchor="middle" font-size="13" fill="#fff">结合自己的资源算能做什么</text>
+  <text x="480" y="372" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">判断</text>
+  <text x="480" y="400" text-anchor="middle" font-size="14" fill="#fff">这些信息好不好 · 决定做什么</text>
+  <text x="480" y="500" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">信息（最宽）</text>
+  <text x="480" y="528" text-anchor="middle" font-size="14" fill="#fff">你每天说的、做的、打的字、看过的 · 你这一行公开的内容</text>
+  <!-- 左：倒推 -->
+  <line x1="120" y1="120" x2="120" y2="540" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <text x="104" y="330" text-anchor="middle" font-size="16" fill="#333" writing-mode="tb">从目标往下倒推：需要什么</text>
+  <!-- 右：执行和反馈 -->
+  <line x1="840" y1="540" x2="840" y2="120" stroke="#555" stroke-width="3" marker-end="url(#a)"/>
+  <text x="858" y="330" text-anchor="middle" font-size="16" fill="#333" writing-mode="tb">AI 往上执行：一步步接近目标</text>
+  <text x="480" y="612" text-anchor="middle" font-size="15" fill="#555">做出来的结果又变成新的信息，回到最底层</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+</svg>
